@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    &.completed {
+      text-decoration: line-through;
+      background-color: #ccc;
+    }
+  }
+}

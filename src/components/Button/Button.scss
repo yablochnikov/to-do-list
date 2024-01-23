@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &.success {
+    background-color: $color-success;
+    color: white;
+
+    &:hover {
+      background-color: $color-success-hover;
+    }
+  }
+
+  &.warning {
+    background-color: $color-warning;
+    color: #333;
+
+    &:hover {
+      background-color: $color-warning-hover;
+    }
+  }
+
+  &.error {
+    background-color: $color-error;
+    color: white;
+
+    &:hover {
+      background-color: $color-error-hover;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
