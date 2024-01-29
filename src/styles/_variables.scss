@@ -1,8 +1,7 @@
-$color-success: #4caf50;
-$color-success-hover: #45a049;
+$blue: #55acee;
+$hoverAlpha: 0.2;
 
-$color-warning: #ffc107;
-$color-warning-hover: #e0a800;
+$loaderBgColor: rgba(0, 0, 0, 0.5);
+$loaderColor: #1976d2;
 
-$color-error: #f44336;
-$color-error-hover: #d32f2f;
+$todayBgColor: rgba($blue, $hoverAlpha);

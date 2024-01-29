@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: $todayBgColor;
+}
+
+.fc .fc-daygrid-day {
+  transition: all 0.2s ease-in-out;
+}
+
+.fc .fc-daygrid-day:hover {
+  background-color: $todayBgColor;
+}

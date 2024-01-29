@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.loader {
+  color: $loaderColor;
+
+  &-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $loaderBgColor;
+    z-index: 1000;
+  }
+}
